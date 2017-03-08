@@ -22,7 +22,7 @@ a {
  * http://codeconflux.com/2016/05/20/jquery-css-navbar-menu-color-change-on-scroll/
  *************************************************************/
 .navbar.bg-transparent-dark {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   transition: 0.2s all linear; }
 
 /*.navbar {
