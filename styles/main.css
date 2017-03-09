@@ -1,21 +1,23 @@
 /*************************************************************
- * Cards Stuff
- * http://codepen.io/alexdevero/pen/JYpMEO
- * https://blog.alexdevero.com/mastering-card-design-with-bootstrap-4/
+ * Background Colours 
  *************************************************************/
-a {
-  transition: .25s all; }
+.grow-bg-brown-gradient {
+  background: #ee0979;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ee0979, #ff6a00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ee0979, #ff6a00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
-.card {
-  overflow: hidden;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  transition: .25s box-shadow; }
-  .card:focus, .card:hover {
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+.grow-bg-light-grey {
+  background-color: #C0C0C0; }
 
-.card-inverse .card-img-overlay {
-  background-color: rgba(51, 51, 51, 0.85);
-  border-color: rgba(51, 51, 51, 0.85); }
+/*************************************************************
+ * Padding for Rows 
+ *************************************************************/
+.grow-row-padding {
+  padding-top: 150px;
+  padding-bottom: 150px; }
 
 /*************************************************************
  * Navbar Customisation
@@ -23,17 +25,8 @@ a {
  *************************************************************/
 .navbar.bg-transparent-dark {
   background: rgba(0, 0, 0, 0.7);
-  transition: 0.2s all linear; }
+  transition: 0.4s all linear; }
 
-/*.navbar {
-  background: transparent;
-  border: none;
-  transition: 0.2s all linear;	
-}
-
-.navbar.change-color {
-  background-color: #fff;
-}*/
 /*************************************************************
  * HTML and body Set height and width 
  *************************************************************
