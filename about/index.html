@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+       
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
 
-    <title>Concept Design</title>
+    <!-- Favicon --> 
+    <link rel="apple-touch-icon" href="/grow.research.series/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/grow.research.series/favicon-96x96.png" />
+
+
+    <title>About | GrOW Research</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
@@ -14,49 +24,256 @@
 
     <!-- Custom CSS --> 
     <link rel="stylesheet" href="/grow.research.series/styles/main.css" >
+
+    <!-- modernizr --> 
+    <script src="/grow.research.series/vendor/scripts/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body>
+
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
     
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-transparent-dark">
+    <!-- START NAVIGATION --> 
+    <div class="navbar navbar-inverse fixed-top bg-transparent-dark">
+        
+        
+        <button id="control-nav" style="z-index: 10000" class="navbar-toggler navbar-toggler-right" type="button" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </button>
+    
+        <a class="navbar-brand" href="/grow.research.series/index.html">
+            <img src="/grow.research.series/images/brand/grow-tree-white-transparent.png" height="30px" />
+        </a>
+            
+    </div>
+    
+    <div class="overlay" aria-expanded="false">
+    	<div class="wrap">
+    		<ul class="navbar-nav ml-auto">
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link text-white" href="/grow.research.series/index.html">Home</a>
+                </li>
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link text-white" href="/grow.research.series/working-papers/index.html">Working Papers</a>
+                </li>
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link text-white" href="/grow.research.series/policy-briefs/index.html">Policy Briefs</a>
+                </li>
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link text-white" href="/grow.research.series/submit/index.html">Submit Research</a>
+                </li>
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link text-white" href="/grow.research.series/about/index.html">About Us</a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+    
+    <!-- END NAVIGATION --> 
+    
+    
+    
+    <!-- START COLLAPSE VERSION --> 
+    
+    <!-- 
+        
+        <nav class="navbar navbar-inverse fixed-top bg-transparent-dark">
+        
+        
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
+    
         <a class="navbar-brand" href="/grow.research.series/index.html">
-            <span class="fa fa-pagelines"></span> GrOW Research Series
+            <img src="/grow.research.series/images/brand/grow-tree-white-transparent.png" height="30px" />
         </a>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse" aria-expanded="false">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item font-weight-bold px-4 py-1">
+                <li class="nav-item  px-4 py-1 display-4 text-center">
+                    <a class="nav-link" href="/grow.research.series/index.html">Home</a>
+                </li>
+                <li class="nav-item  px-4 py-1 display-4 text-center">
                     <a class="nav-link" href="/grow.research.series/working-papers/index.html">Working Papers</a>
                 </li>
-                <li class="nav-item font-weight-bold px-4 py-1">
+                <li class="nav-item  px-4 py-1 display-4 text-center">
                     <a class="nav-link" href="/grow.research.series/policy-briefs/index.html">Policy Briefs</a>
                 </li>
-                <li class="nav-item font-weight-bold px-4 py-1">
+                <li class="nav-item  px-4 py-1 display-4 text-center">
                     <a class="nav-link" href="/grow.research.series/submit/index.html">Submit Research</a>
                 </li>
-                <li class="nav-item font-weight-bold px-4 py-1">
+                <li class="nav-item  px-4 py-1 display-4 text-center">
                     <a class="nav-link" href="/grow.research.series/about/index.html">About Us</a>
                 </li>
             </ul>
+             
         </div>
+            
     </nav>
+    
+    -->
+    
+    <!-- END COLLAPSE VERSION -->     
 
     
 
+
 <!-- Start Grow Hero [Submit Research Featured] -->
-<div class="jumbotron align-items-center text-center mb-0">
-  <div class="container">
-        
-  <h1 class="display-3">About GrOW Research Series</h1>
-  <p class="lead">Information about our series and our partners will go here</p>
+<div class="jumbotron jumbotron-fluid grow-about-jumbotron mb-0">
   
+  <div class="container">
+    <div class="d-flex flex-column align-items-center">
+      <div class="mb-auto p-2">
+        <img src="/grow.research.series/images/brand/grow-tree-white-transparent.png" width="100px" alt="...">
+
+      </div>
+      <div class="p-2" >
+        <h1 class="display-2" style="padding-top:180px; text-shadow: 2px 2px 4px #000000;">About GrOW Research Series</h1>
+
+
+      </div>
+    </div>
   </div>
 </div>
-<!-- End Grow Hero [Submit Research Featured] -->  
+<!-- End Grow Hero [Submit Research Featured] -->
 
 
+<!-- START ABOUT US CONTENT --> 
+<section>
+  <div>
+    <div class="container grow-section-container-padding">
+      
+      <h2 class="sr-only">About us</h2>
+      
+      <div class="lead">
+        <p>The GrOW Research Series brings together scholarly research on women’s economic empowerment and economic growth in low-income countries, and provides a conceptual and empirical basis for policy-making. It is also the official research platform for the Growth and Economic Opportunities for Women (GrOW) program, a multi-funder partnership between the UK's Department for International Development, the Hewlett-Flora Foundation, and Canada's International Development Research Centre (IDRC). With 14 projects in 50 countries, GrOW works with researchers to improve economic outcomes and opportunities for poor women on the themes of employment, the care economy, and women’s economic agency.</p>  
+
+        <p>This series is housed at the Institute for the Study of International Development (ISID) at McGill University in Montreal, Canada. As part of a broader initiative by ISID and IDRC, this series will disseminate GrOW research, including the GrOW working paper series and policy brief series, on an open access online platform.</p> 
+      </div>
+
+    </div>
+    <!-- START OUR PARTNERS SECTION --> 
+    <div class="container-fluid">
+      
+        <div class="row align-items-center justify-content-xl-center text-center">
+          <div class="col-md col-xl-3 offset-sm-3 offset-md-0 col-sm-6 py-sm-4">
+            <img class="img-fluid" src="/grow.research.series/images/home/partners/isid.jpg" />
+          </div>
+          <div class="col-md offset-sm-3 col-xl-3 offset-md-0 col-sm-6 py-sm-4">
+            <img class="img-fluid" src="/grow.research.series/images/brand/grow-brand.jpg" />  
+          </div>
+          <div class="col-md offset-sm-3 col-xl-3 offset-md-0 col-sm-6 py-sm-4">
+            <img class="img-fluid" src="/grow.research.series/images/home/partners/mcgill.png" />      
+          </div>
+          
+        </div>
+    </div>
+  </div>
+</section>
+<!-- END OUR PARTNERS SECTION --> 
+  </div>
+</section>
+
+<!-- END ABOUT US CONTENT --> 
+
+
+<!-- START CONTACT US CONTENT --> 
+<section>
+  <div class="grow-section-what-we-do-bg">
+    <div class="container grow-section-container-padding">
+      
+      <h2 class="display-3 text-center py-5">Contact Us</h2>
+      
+      <div class="lead text-center">
+        <p>GrOW Research Series</p>
+        <p>Institute for the Study of International Development</p>
+        <p>Peterson Hall, 3460 McTavish St.</p>
+        <p>Montreal, Quebec</p>
+        <p>H3A 0E6</p>
+        <p>grow.research.isid@mcgill.ca</p>  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CONTACT US CONTENT --> 
+
+<!-- START EDITORIAL BOARD CONTENT --> 
+<section>
+  <div>
+    <div class="container-fluid grow-section-container-padding">
+      
+      <h2 class="display-3 text-center py-5">Our Editorial Board</h2>
+
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6">
+          <span class="fa fa-user-circle-o fa-5x pb-5" aria-hidden="true"></span>        
+          <h5><strong>Dr. Kate Grantham</strong></h5>
+          <p class="text-muted">
+            Managing Editor, GrOW Research Series<br />
+            Research Associate, Institute for the Study of International Development<br />
+            McGill University
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <span class="fa fa-user-circle-o fa-5x pb-5" aria-hidden="true"></span>        
+          <h5><strong>Partner 2</strong></h5>
+          <p class="text-muted">Theme components inherit much of their style from variables, exactly like Bootstrap. Change a few values and the
+            theme adapts.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <span class="fa fa-user-circle-o fa-5x pb-5" aria-hidden="true"></span>        
+          <h5><strong>Partner 3</strong></h5>
+          <p class="text-muted">Each Bootstrap theme includes all the source and compiled files you'll need, including npm and Gulp based build tools.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <span class="fa fa-user-circle-o fa-5x pb-5" aria-hidden="true"></span>        
+          <h5><strong>Partner 3</strong></h5>
+          <p class="text-muted">Each Bootstrap theme includes all the source and compiled files you'll need, including npm and Gulp based build tools.</p>
+        </div>
+      </div>
+  </div>
+</div> 
+
+
+    </div>
+  </div>
+</section>
+<!-- END EDITORIAL BOARD CONTENT -->  
+
+    
+    <!-- START FOOTER SECTION --> 
+    <footer>
+        <div class="grow-footer-background">
+            <div class="container grow-section-container-padding">
+          
+                <h2 class="sr-only">Site Footer</h2>
+    
+                <div class="lead text-center">
+                    <p><span class="sr-only">Notice: </span>2017 GrOW Research All Rights Reserved</p>
+    
+                    <p class="py-4 text-uppercase">
+                        <a href="mailto:grow.research.isid@mcgill.ca"><span class="sr-only">GrOW Research Email Address:</span>grow.research.isid@mcgill.ca</a>
+                    </p>
+    
+                    <p>
+                        <a href="https://twitter.com/grow_research">
+                            <span class="fa fa-twitter" aria-hidden="true"></span>
+                            <span class="sr-only">GrOW Research Twitter Account</span>
+                        </a>
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
     <!-- jQuery first, then Tether, then Bootstrap JS, then custom JS -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 

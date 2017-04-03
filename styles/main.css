@@ -12,19 +12,34 @@
 .grow-bg-light-grey {
   background-color: #C0C0C0; }
 
+.grow-bg-lily-white {
+  background-color: #00656e !important; }
+
+.grow-section-what-we-do-bg {
+  background-color: #ebebea !important; }
+
+.grow-section-latest-pub-bg {
+  background-color: #ffffff !important; }
+
+.grow-section-int-submit-bg {
+  background-color: #ebebea !important; }
+
+.grow-footer-background {
+  background-color: #ebebea !important; }
+
 /*************************************************************
  * Padding for Rows 
  *************************************************************/
-.grow-row-padding {
-  padding-top: 150px;
-  padding-bottom: 150px; }
+.grow-section-container-padding {
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 /*************************************************************
  * Navbar Customisation
  * http://codeconflux.com/2016/05/20/jquery-css-navbar-menu-color-change-on-scroll/
  *************************************************************/
 .navbar.bg-transparent-dark {
-  background: rgba(0, 0, 0, 0.7);
+  background: none;
   transition: 0.4s all linear; }
 
 /*************************************************************
@@ -38,72 +53,93 @@ body {
 
 /
 
-/*************************************************************
- * Equal Heights Fix 
- * Source: http://www.bootply.com/126437
- *************************************************************
-.row-flex, .row-flex > div[class*='col-'] {  
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 1 auto;
-}
 
-.row-flex-wrap {
-	-webkit-flex-flow: row wrap;
-    align-content: flex-start;
-    flex:0;
-}
-
-.row-flex > div[class*='col-'], .container-flex > div[class*='col-'] {
-	 margin:-.2px; 
-   //hack adjust for wrapping
-}
-
-.container-flex > div[class*='col-'] div,.row-flex > div[class*='col-'] div {
-	width:100%;
-}
-
-
-.flex-col {
-    display: flex;
-    display: -webkit-flex;
-    flex: 1 100%;
-	flex-flow: column nowrap;
-}
-
-.flex-grow {
-	display: flex;
-    -webkit-flex: 2;
-    flex: 2;
-}
-
-/*
 
 
 
 /*************************************************************
- *  Grow Home Page: Working Papers Section
+ * Grow Jumbotrons
+ *  Banners at the top of each page  
  *************************************************************/
-.grow-working-papers-section {
-  background-color: #bdd5ea;
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-.grow-working-papers-section h2 {
-  font-size: 400%; }
-
-/*************************************************************
- * Grow Hero Jumbotron 
- *************************************************************/
-.grow-hero-jumbotron {
+.grow-home-jumbotron {
   min-height: 100vh;
   color: #fff;
   position: relative;
-  background: url("/grow.research.series/images/home/hero/hero.jpg") no-repeat center center;
+  background-position: 200px 0px;
+  background: url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.grow-working-papers-jumbotron {
+  min-height: 50vh;
+  color: #fff;
+  position: relative;
+  background-position: 200px 0px;
+  background: url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-policy-briefs-jumbotron {
+  min-height: 75vh;
+  color: #fff;
+  position: relative;
+  background-position: 200px 0px;
+  background: url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-submit-jumbotron {
+  min-height: 75vh;
+  color: #fff;
+  position: relative;
+  background-position: 200px 0px;
+  background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-about-jumbotron {
+  min-height: 75vh;
+  color: #fff;
+  position: relative;
+  background-position: 200px 0px;
+  background: url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/*
+ * http://codepen.io/riogrande/pen/gbXxdx
+ */
+/*overlay*/
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #00656e;
+  overflow: auto;
+  z-index: 99;
+  padding-top: 100px; }
+
+.wrap {
+  color: #e9e9e9;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto; }
+
+.content {
+  width: 100%;
+  margin-top: 200px;
+  font-size: 20px;
+  color: #333;
+  text-align: center; }
