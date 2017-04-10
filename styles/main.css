@@ -119,12 +119,12 @@ p, ul, ul li {
 .grow-page-cover-news {
   height: 75vh;
   background: #000000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.3) 150px, rgba(0, 0, 0, 0.1) 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.3) 150px, rgba(0, 0, 0, 0.1) 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
