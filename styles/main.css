@@ -1,116 +1,144 @@
 /*************************************************************
+ * HTML and body Set height and width 
+ ************************************************************/
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+p, ul, ul li {
+  font-weight: lighter; }
+
+.nav-link {
+  font-weight: normal; }
+
+/*************************************************************
+ * Text Colours 
+ *************************************************************/
+.grow-text-primary {
+  color: #00656e; }
+
+/*************************************************************
  * Background Colours 
  *************************************************************/
-.grow-bg-brown-gradient {
-  background: #ee0979;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ee0979, #ff6a00);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ee0979, #ff6a00);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-
 .grow-bg-light-grey {
-  background-color: #C0C0C0; }
+  background-color: #ECECEC; }
 
-.grow-bg-lily-white {
-  background-color: #00656e !important; }
+.grow-bg-white {
+  background-color: #ffffff; }
 
-.grow-section-what-we-do-bg {
-  background-color: #ebebea !important; }
-
-.grow-section-latest-pub-bg {
-  background-color: #ffffff !important; }
-
-.grow-section-int-submit-bg {
-  background-color: #ebebea !important; }
-
-.grow-footer-background {
+.grow-bg-footer {
   background-color: #ebebea !important; }
 
 /*************************************************************
- * Padding for Rows 
+ * Padding for Sections 
  *************************************************************/
 .grow-section-container-padding {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 75px;
+  padding-bottom: 75px; }
 
 /*************************************************************
  * Navbar Customisation
  * http://codeconflux.com/2016/05/20/jquery-css-navbar-menu-color-change-on-scroll/
  *************************************************************/
-.navbar.bg-transparent-dark {
+.navbar.grow-navbar-default {
   background: none;
   transition: 0.4s all linear; }
 
-/*************************************************************
- * HTML and body Set height and width 
- *************************************************************
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-/
-
-
-
-
+.navbar.grow-navbar-scrolled {
+  background-color: #00656e;
+  transition: 0.4s all linear; }
 
 /*************************************************************
- * Grow Jumbotrons
+ * Grow Page Covers 
  *  Banners at the top of each page  
  *************************************************************/
-.grow-home-jumbotron {
+.grow-page-cover-home {
+  padding-top: 80px;
+  min-height: 100%;
   min-height: 100vh;
-  color: #fff;
   position: relative;
-  background-position: 200px 0px;
-  background: url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  color: #fff;
+  background-color: #000000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100px, transparent 100%), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(100px, rgba(0, 0, 0, 0.5)), color-stop(100%, transparent)), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100px, 0, 0, 0, 0 100%), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100px, 0, 0, 0, 0 100%), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 100px, 0, 0, 0, 0 100%), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.5) 100px, transparent 100%), url("/grow.research.series/images/banners/home.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (max-width: 767px) {
+    .grow-page-cover-home {
+      padding-top: 25px; } }
+
+.grow-page-cover-submit-papers {
+  height: 75vh;
+  background: #000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.4) 100px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.grow-working-papers-jumbotron {
-  min-height: 50vh;
-  color: #fff;
-  position: relative;
-  background-position: 200px 0px;
-  background: url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+.grow-page-cover-working-papers {
+  height: 75vh;
+  background: #000000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.grow-policy-briefs-jumbotron {
-  min-height: 75vh;
-  color: #fff;
-  position: relative;
-  background-position: 200px 0px;
-  background: url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+.grow-page-cover-about {
+  height: 75vh;
+  background: #000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.6) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.grow-submit-jumbotron {
-  min-height: 75vh;
-  color: #fff;
-  position: relative;
-  background-position: 200px 0px;
-  background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+.grow-page-cover-news {
+  height: 75vh;
+  background: #000000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.3) 150px, rgba(0, 0, 0, 0.1) 100%), url("/grow.research.series/images/banners/news.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.grow-about-jumbotron {
-  min-height: 75vh;
-  color: #fff;
-  position: relative;
-  background-position: 200px 0px;
-  background: url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+.grow-page-cover-policy-briefs {
+  height: 75vh;
+  background: #000;
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.6) 100px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -143,3 +171,16 @@ body {
   font-size: 20px;
   color: #333;
   text-align: center; }
+
+/*************************************************************
+ * Grow Section Backgrounds 
+ *  Background Images for sections  
+ *************************************************************/
+.grow-section-bg-world-map {
+  background: #ffffff;
+  background: url("/grow.research.series/images/home/panel-bg/world-map.png") no-repeat center center;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url("/grow.research.series/images/section-bg/world-map.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
