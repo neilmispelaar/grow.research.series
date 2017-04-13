@@ -84,7 +84,7 @@ p, ul, ul li {
   color: #ffffff; }
   @media (max-width: 767px) {
     .grow-page-cover-wrapper {
-      height: 750px; } }
+      height: 650px; } }
 
 .grow-page-cover-submit-papers {
   background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center top;
