@@ -6,6 +6,9 @@ body {
   height: 100%;
   width: 100%; }
 
+/*************************************************************
+ * Modify Text on the Website 
+ ************************************************************/
 p, ul, ul li {
   font-weight: lighter; }
 
@@ -17,6 +20,24 @@ p, ul, ul li {
  *************************************************************/
 .grow-text-primary {
   color: #00656e; }
+
+/*************************************************************
+ * Buttons 
+ *************************************************************/
+.btn-grow-primary {
+  color: #fff;
+  background-color: #00656e;
+  border-color: #00656e; }
+
+.btn-grow-primary:hover {
+  color: #fff;
+  background-color: #004C55;
+  border-color: #004C55; }
+
+.btn-grow-primary:focus, .btn-grow-primary:focus {
+  color: #fff;
+  background-color: #004C55;
+  border-color: #004C55; }
 
 /*************************************************************
  * Background Colours 
@@ -128,7 +149,7 @@ p, ul, ul li {
 .grow-section-bg-world-map {
   background: #ffffff;
   background: url("/grow.research.series/images/home/panel-bg/world-map.png") no-repeat center center;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url("/grow.research.series/images/section-bg/world-map.png") no-repeat center center;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), url("/grow.research.series/images/section-bg/world-map.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
