@@ -50,8 +50,8 @@ p, ul, ul li {
   transition: 0.4s all linear; }
 
 /*************************************************************
- * Grow Page Covers 
- *  Banners at the top of each page  
+ * Grow Home Page Cover
+ *   
  *************************************************************/
 .grow-page-cover-home {
   padding-top: 80px;
@@ -74,8 +74,25 @@ p, ul, ul li {
     .grow-page-cover-home {
       padding-top: 25px; } }
 
+/*************************************************************
+ * Grow Page Covers 
+ *  Banners at the top of each page  
+ *************************************************************/
+.grow-page-cover-wrapper {
+  height: 70%;
+  background: #00656e;
+  color: #ffffff; }
+
 .grow-page-cover-submit-papers {
-  height: 75vh;
+  background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3)), url("/grow.research.series/images/banners/submit.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-page-cover-submit-paperss {
+  height: 70%;
   background: #000;
   background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
   background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
@@ -143,34 +160,6 @@ p, ul, ul li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-
-/*
- * http://codepen.io/riogrande/pen/gbXxdx
- */
-/*overlay*/
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: #00656e;
-  overflow: auto;
-  z-index: 99;
-  padding-top: 100px; }
-
-.wrap {
-  color: #e9e9e9;
-  text-align: center;
-  max-width: 90%;
-  margin: 0 auto; }
-
-.content {
-  width: 100%;
-  margin-top: 200px;
-  font-size: 20px;
-  color: #333;
-  text-align: center; }
 
 /*************************************************************
  * Grow Section Backgrounds 
