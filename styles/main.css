@@ -79,83 +79,40 @@ p, ul, ul li {
  *  Banners at the top of each page  
  *************************************************************/
 .grow-page-cover-wrapper {
-  height: 70%;
+  height: 500px;
   background: #00656e;
   color: #ffffff; }
 
 .grow-page-cover-submit-papers {
-  background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3)), url("/grow.research.series/images/banners/submit.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.grow-page-cover-submit-paperss {
-  height: 70%;
-  background: #000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.4) 100px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/submit.jpg") no-repeat center center;
+  background: url("/grow.research.series/images/banners/submit.jpg") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .grow-page-cover-working-papers {
-  height: 75vh;
-  background: #000000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.grow-page-cover-about {
-  height: 75vh;
-  background: #000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.6) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.grow-page-cover-news {
-  height: 75vh;
-  background: #000000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.5) 150px, rgba(0, 0, 0, 0.2) 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.2))), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.2 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.3) 150px, rgba(0, 0, 0, 0.1) 100%), url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
+  background: url("/grow.research.series/images/banners/working-papers.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .grow-page-cover-policy-briefs {
-  height: 75vh;
-  background: #000;
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(150px, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.3))), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
-  background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
-  background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.6) 150px, 0, 0, 0, 0.3 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.6) 100px, rgba(0, 0, 0, 0.3) 100%), url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  background: url("/grow.research.series/images/banners/policy-briefs.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-page-cover-about {
+  background: url("/grow.research.series/images/banners/about.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.grow-page-cover-news {
+  background: url("/grow.research.series/images/banners/news-information.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
